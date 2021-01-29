@@ -1,0 +1,363 @@
+@charset "UTF-8";
+.containers .header img {
+  margin-left: 58%;
+  margin-top: 12px; }
+
+.containers {
+  width: 1301px;
+  height: 1500px;
+  margin-top: 14px;
+  background-image: url("../phote/Background.png");
+  position: relative;
+  margin: auto; }
+  .containers nav .info ul {
+    display: flex;
+    float: right;
+    margin-right: 169px;
+    margin-top: 14px; }
+    .containers nav .info ul li {
+      margin-left: 35px; }
+      .containers nav .info ul li a {
+        text-decoration: none;
+        color: #fffeff;
+        font-size: 18px;
+        font-weight: 900; }
+        .containers nav .info ul li a:hover {
+          color: #06F;
+          transition: all 0.4s;
+          -webkit-transition: all 0.4s;
+          -moz-transition: all 0.4s;
+          -ms-transition: all 0.4s;
+          -o-transition: all 0.4s; }
+  .containers nav .imges {
+    position: absolute;
+    left: 16%;
+    top: 41px; }
+
+@media (min-width: 280px) and (max-width: 319px) {
+  .containers nav .info ul {
+    margin-right: 153px; } }
+
+.containers .header-pragrphe {
+  margin-right: 181px;
+  color: #fffeff;
+  margin-top: 66px;
+  font-size: 15px; }
+
+.containers .carsel {
+  width: 59%;
+  margin-right: 250px;
+  margin-top: 39px;
+  border: 4px solid #fffeff;
+  box-shadow: 2px 2px 15px;
+  margin-bottom: 16px; }
+  .containers .carsel .carousel ol li {
+    color: #101010;
+    background-color: #101010; }
+
+.containers .taxt {
+  margin-left: 121px; }
+  .containers .taxt .textboxs .textbox1 {
+    width: 61%;
+    height: 205px;
+    margin-top: 13px;
+    background-image: url("../phote/Txt Box 1.png");
+    margin-right: 151px;
+    border-radius: 36px 11px;
+    background-color: #fffeff;
+    padding-right: 91px; }
+    .containers .taxt .textboxs .textbox1 .logo {
+      width: 33%;
+      height: 62px;
+      background-image: url("../phote/Txt Box Button.png");
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-top: 6px;
+      position: relative;
+      margin-right: 15px; }
+      .containers .taxt .textboxs .textbox1 .logo h2 {
+        font-size: 27px;
+        color: #fffeff;
+        margin-right: 53px;
+        font-weight: 900; }
+      .containers .taxt .textboxs .textbox1 .logo .diffrent {
+        font-size: 21px;
+        margin-right: 38px;
+        margin-top: 6px;
+        font-weight: 900; }
+    .containers .taxt .textboxs .textbox1 .this {
+      position: absolute;
+      left: 35%;
+      top: 73%; }
+  .containers .taxt .textboxs .logo2 {
+    background-image: url("../phote/More Button.png");
+    width: 112px;
+    height: 34px;
+    background-repeat: no-repeat;
+    margin-right: 78%;
+    padding-top: 1px; }
+    .containers .taxt .textboxs .logo2 h2 {
+      font-size: 12px;
+      margin-right: 44px;
+      margin-top: 5px;
+      font-weight: 900; }
+      .containers .taxt .textboxs .logo2 h2 a {
+        text-decoration: none;
+        color: #fffeff;
+        font-weight: 900; }
+    .containers .taxt .textboxs .logo2 a:hover {
+      color: #06F; }
+  .containers .taxt p {
+    margin-right: 19px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 93%;
+    margin-top: 0px;
+    color: #000066; }
+
+.containers .pharmase {
+  width: 17%;
+  height: 854px;
+  position: absolute;
+  right: 70%;
+  top: 32%;
+  background-color: #a8cffd;
+  border-radius: 22px; }
+.containers .body .header {
+  width: 201px;
+  height: 34px;
+  background-image: url("../phote/New folder/Txt Box Button.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  background-size: contain; }
+  .containers .body .header h2 {
+    margin-right: 59px;
+    font-size: 27px;
+    margin-top: -2px;
+    color: #fffeff;
+    font-weight: 900; }
+.containers .body .setion {
+  margin-top: 58px; }
+  .containers .body .setion img {
+    width: 82%;
+    margin-right: 24px;
+    margin-top: 22px;
+    border: 7px solid #2787b4;
+    border-radius: 31px;
+    box-shadow: 1px 1px 7px 1px; }
+.containers .body .arryes .arryes-top {
+  position: absolute;
+  top: 39px;
+  right: 102px; }
+.containers .body .arryes .arryes-bottom {
+  position: absolute;
+  right: 101px;
+  margin-top: 20px; }
+
+.containers .program-phote .overflow {
+  width: 59%;
+  height: 291px;
+  background-image: url("../phote/البرنامج/Gallery.png");
+  margin: auto;
+  background-position: center;
+  background-size: center;
+  padding-right: 5px;
+  padding-top: 4px;
+  margin-top: 32px; }
+
+.containers .sells .overflow {
+  width: 75%;
+  height: 839px;
+  background-image: url("../phote/البرنامج/txt box larg.png");
+  margin-right: 162px;
+  border-bottom-right-radius: 43px 48px;
+  position: relative; }
+  .containers .sells .overflow .head-logo {
+    padding-top: 5px;
+    padding-right: 19px;
+    position: relative; }
+    .containers .sells .overflow .head-logo h2 {
+      position: absolute;
+      bottom: 0px;
+      top: 6px;
+      right: 95px;
+      font-size: 24px;
+      color: #fffeff;
+      font-weight: 900; }
+.containers .sells .row .col-lg-2 {
+  margin-right: 48px;
+  margin-top: 58px; }
+.containers .sells .row .col-xl-5 {
+  position: absolute;
+  top: 94%;
+  margin-right: 75%; }
+  .containers .sells .row .col-xl-5 a {
+    text-decoration: none; }
+  .containers .sells .row .col-xl-5 a:hover {
+    color: #06F;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s; }
+  .containers .sells .row .col-xl-5 button {
+    background-color: #101010;
+    padding: 6px 20px 4px 19px;
+    border-radius: 11px;
+    margin-right: 22px;
+    border: 3px solid #2787b4; }
+    .containers .sells .row .col-xl-5 button a {
+      color: #fffeff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 900; }
+.containers .sells .row .diffrent {
+  position: absolute;
+  top: 95%;
+  left: 88%;
+  background-color: #101010;
+  width: 8%;
+  height: 25px;
+  border-radius: 6px;
+  padding: 0px 6px 0px 0px; }
+  .containers .sells .row .diffrent a {
+    text-decoration: none;
+    color: #fffeff;
+    padding: 6px; }
+
+.sells .big {
+  width: 88%;
+  height: 711px;
+  margin: auto;
+  margin-top: 54px;
+  font-size: 18px;
+  font-size: large;
+  line-height: 35px;
+  font-weight: 900; }
+  .sells .big .active {
+    text-align: center;
+    font-size: 24px;
+    color: #000066;
+    margin-bottom: 14px; }
+
+.sells .big {
+  width: 91%;
+  height: 604px; }
+  .sells .big .info {
+    margin-bottom: 67px; }
+    .sells .big .info h2 {
+      font-size: 23px;
+      font-weight: 900; }
+  .sells .big .row {
+    margin-right: 70px;
+    margin-top: 71px; }
+
+.sells .info {
+  margin-right: 32px;
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 23px;
+  line-height: 50px; }
+  .sells .info .diffrent {
+    margin-top: 31px;
+    margin-bottom: 51px; }
+
+.sells .overflow .biges .count p {
+  font-size: 20px;
+  font-weight: 900;
+  width: 90%;
+  margin-right: 54px;
+  margin-top: 45px; }
+.sells .overflow .biges .list h2 {
+  text-align: center;
+  color: #000066;
+  font-weight: 900; }
+.sells .overflow .biges .list ul {
+  font-weight: 900; }
+  .sells .overflow .biges .list ul li {
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 0px;
+    line-height: 19px; }
+
+.setion-new .overflow .head-logo h2 {
+  position: absolute;
+  bottom: 0px;
+  top: 13px;
+  right: 88px;
+  font-size: 24px;
+  color: #fffeff;
+  font-weight: 900; }
+.setion-new .overflow ul li {
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 196px; }
+
+.map iframe {
+  width: 35%;
+  height: 311px;
+  margin-right: 31%;
+  margin-top: 23px; }
+
+.setion-new .overflow {
+  width: 75%;
+  height: 134px;
+  background-image: url("../phote/البرنامج/txt box larg.png");
+  margin-right: 162px;
+  border-bottom-right-radius: 43px 48px;
+  position: relative;
+  padding-top: 12px;
+  padding-right: 23px; }
+  .setion-new .overflow .head-logo .diff-two {
+    position: absolute;
+    right: 105px; }
+  .setion-new .overflow .head-logo .diff {
+    position: absolute;
+    right: 70px; }
+
+.news {
+  margin-left: 27px;
+  height: 85px !important;
+  margin-top: 10px; }
+
+.okses {
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-right: 35px; }
+
+body {
+  font-family: "Times New Roman", Times, serif; }
+  body ul {
+    list-style: none; }
+
+.containers footer .top {
+  display: flex;
+  margin-right: 75px;
+  margin-top: 17px; }
+  .containers footer .top .phote {
+    margin-right: 477px; }
+    .containers footer .top .phote img {
+      margin-left: 7px; }
+  .containers footer .top .info {
+    margin-right: 90px;
+    margin-top: 16px; }
+    .containers footer .top .info h2 {
+      font-size: 17px;
+      color: #fffeff; }
+      .containers footer .top .info h2 span {
+        font-size: 18px; }
+.containers footer .down h2 {
+  font-size: 12px;
+  color: #fffeff;
+  margin-right: 480px; }
+.containers footer .last p {
+  margin-top: 23px;
+  color: #fffeff;
+  text-align: center;
+  font-size: 13px; }
+
+/*# sourceMappingURL=homepage.css.map */
